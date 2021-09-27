@@ -16,8 +16,6 @@ a welcome page
 
 **Contents / features** 
 
-testimi
-- témoignages des membres du groupe + photos
-- liste de lieux
-- formulaire de contact
-- Image pour la page d'accueil
+testimony of members of the group (yann, sophie & ambre) 
+forms to ask for more informations
+duplicate the testimony pages and change the content for each testimony.
