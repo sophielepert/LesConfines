@@ -9,12 +9,10 @@ Due date : friday 8th of october
 
 **Project : "how to survive a pandemic period".**
 
-**Features : **
+**Contents / features** 
+
 a welcome page 
 3 testimony pages (solo, duo and family / roomates)
-
-
-**Contents / features** 
 
 testimony of members of the group (yann, sophie & ambre) 
 forms to ask for more informations
