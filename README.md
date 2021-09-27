@@ -11,9 +11,10 @@ Due date : friday 8th of october
 
 **Contents / features** 
 
-a welcome page 
-3 testimony pages (solo, duo and family / roomates)
+- a welcome page 
+- 3 testimony pages (solo, duo and family / roomates)
 
-testimony of members of the group (yann, sophie & ambre) 
-forms to ask for more informations
-duplicate the testimony pages and change the content for each testimony.
+**details** 
+- testimony of members of the group (yann, sophie & ambre) 
+- forms to ask for more informations
+- duplicate the testimony pages and change the content for each testimony.
