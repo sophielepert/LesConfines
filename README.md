@@ -13,6 +13,11 @@ Due date : friday 8th of october
 
 - a welcome page 
 - 3 testimony pages (solo, duo and family / roomates)
+- mobile menu / desktop menu
+- define the tree website and create the html pages 
+- define a graphic chart
+- create the content
+- create a form to ask for more informations
 
 **details** 
 - testimony of members of the group (yann, sophie & ambre) 
