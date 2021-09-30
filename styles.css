@@ -10,3 +10,42 @@ font : Roboto
 */
 /*mobile*/
 
+.content-ban img{
+    width: 100%;
+    height: 10vw;
+}
+
+.content-article img{
+    width: 100%;
+    height: 10vw;;
+}
+
+.content-aLire{
+    width: 100%;
+    height: 10vw;
+}
+
+.content-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80vm 20vm ;
+    grid-template-rows:20vm 60vm 10vm 10vm ;
+    grid-template-areas:
+    'title title'
+    'section section'
+    'read-more read-more'
+    'play play'
+    ;
+}
+.content-title{
+    grid-area: title;
+}
+.content-section{
+    grid-area: section ;
+}
+.read-more{
+    grid-area: read-more;
+}
+.play{
+    grid-area: play;
+}
