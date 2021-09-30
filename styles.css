@@ -1,0 +1,15 @@
+#indexTemoignage{
+    display: flex ;
+    justify-content: space-around;
+    background-color: #64b5f6 ;
+    border: #64b5f6 10px;
+}
+.bouton-temoignage{
+    display: flex ;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: space-around;
+    background-color: white;
+   
+}
