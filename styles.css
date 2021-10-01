@@ -1,16 +1,13 @@
 /* Style survival.html*/
 .choices {
     display : flex;
-    flex-direction: row;
-    flex-wrap : wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
-
 .container {
-        /* margin : 0.5em; */
         width: 30vw;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 16px;
         text-align: center;
       }
@@ -45,8 +42,44 @@ button {
   padding: 16px 50px;
       }
 
-
-
 #solo-story, #duo-story, #tribe-story {
   display:none;
   }
+
+h2 {
+  background-color: ;
+}
+
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 480px){
+.choices {
+  flex-flow: column wrap;
+  justify-content: center;
+    }
+
+.container {
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: auto;
+    height: 40vh;
+
+  }
+  .middle {
+    opacity: 1;
+    text-align: center;
+  }
+button {
+    background-color: #10162F;
+    color: white;
+    font-size: 16px;
+    padding: 16px 50px;
+        }
+}
