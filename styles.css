@@ -29,22 +29,22 @@ flex-direction: column;
 
 }
 
-.content-articles{ /*conteuneur des articles*/
+.content-articles{ /*conteneur des articles*/
 width:100%;
 display: flex;
 flex-direction: column;
 }
 
 .content-articles :nth-child(1){
-    
+    display: block;
 }
 
 .content-articles :nth-child(2){
-    
+    display: none;
 }
 
 .content-articles :nth-child(3){
-
+    display: none;
 }
 
 .content-art{ /*conteneur de l'image et le texte de l'article*/
