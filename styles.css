@@ -90,3 +90,7 @@ text-align: center;
 a .index-testimony-button:hover{
     box-shadow: 3px 3px 1px 1px #8dafd3;
 }
+
+figcaption{
+    color: white;
+}
