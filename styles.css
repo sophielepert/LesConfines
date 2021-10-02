@@ -1,3 +1,4 @@
+
 /* 
 blanc : #ffffff
 bleu ciel foncé : #1972D2
@@ -14,19 +15,6 @@ font : Roboto
 width: 100%;
 display:flex;
 flex-direction: column;
-}
-
-.content-title{ 
-
-}
-.content-articles{
-
-}
-.content-readMore{
-
-}
-.content-play{
-
 }
 
 .content-articles{ /*conteneur des articles*/
@@ -53,12 +41,6 @@ flex-direction: column;
     flex-direction: column;
 }
 
-.content-articles .hidden{
-    display: none;
-}
-.content-articles .visible{
-    display: block;
-}
 
 .content-art :nth-child(1){ /*title H2*/
     
@@ -71,6 +53,21 @@ flex-direction: column;
 .content-art :nth-child(3){ /*testimony === texte*/
     
 }
+
+/*Gestion des boutons */
+.content-articles .hidden{
+    display: none;
+}
+.content-articles .visible{
+    display: block;
+}
+ .content-menu #content-btn{
+     width: 100%;
+ }
+#content-btn{
+    width: 100%;
+}
+
 /*reste readmore et play*/
 
 /*desktop*/
