@@ -6,6 +6,78 @@
         flex-flow: column wrap;
         justify-content: center;
     }
+
+
+    /* Media Queries */
+@media screen and (max-width: 600px){
+    .nav-menu{
+        position: fixed;
+        width: 70%;
+        left: -600px;
+        top: 4.9rem;
+        flex-direction: column;
+        text-align: center;
+        background-color: #141b38;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.2);
+        margin-left: -5px;
+    }
+    .nav-link:hover{
+        color:rgb(166, 170, 172);
+        padding: 1rem;
+        transition: 0.3s ease-in;
+        border-bottom: 2px solid rgb(166, 170, 172);
+    }
+
+.nav-menu.active{
+    left: 0;
+}
+.nav-item {
+    margin: 2.5rem 0;
+}
+.hamburger{
+    display: block;
+    cursor: pointer;
+    border-left: 1px solid rgb(98, 149, 174);
+    padding:0 1rem;
+}
+
+
+
+.header .navbar .nav-menu li:before{
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.header .navbar .nav-menu li:first-child:before{
+    background-image: url(./images/virus.png);
+}
+.header .navbar .nav-menu li:nth-child(2):before {
+    background-image: url(./images/virus.png);
+}
+.header .navbar .nav-menu li:nth-child(2):before {
+    background-image: url(./images/virus.png);
+}.header .navbar .nav-menu li:last-child:before {
+    background-image: url(./images/virus.png);
+}
+
+
+
+/* Faire disparaitre la seconde barre du menu deroulant sur le click */
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(405deg);
+}
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-405deg);
+}
+}
+
 }
 
 @font-face {
@@ -48,6 +120,87 @@ h3{
     font-size: 2.5vw;
 }
 /* end of common css*/ 
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+li {list-style: none;}
+a {text-decoration: none;}
+
+.header{
+    background-color: #10162F;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.navbar .logo img{
+    height: 80px;
+    width: 120px;
+    padding-right: 10px;
+}
+
+
+/* style défilement hamburger */
+.hamburger{
+    display: none;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.4s ease-out;
+    background-color: rgb(167, 211, 247);
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.nav-item{
+    margin-left: 5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    /* font-weight: 300; */
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-logo{
+    color: #fff;
+    font-size: 2.1rem;
+}
+.nav-link:hover{
+    color:rgb(166, 170, 172);
+}
+
+/* Debut media queries */
+
+
+/* Fin media queries */
+
+.img-accueil img{
+    width: 100%;
+    height: 30vh;
+}
 
 #index-presentation{
 text-align: center;
