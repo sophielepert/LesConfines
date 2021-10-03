@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: #F0F8FF;
+    background-color: white;
     width: 100vw;
     margin: 0;
 }
@@ -26,9 +26,8 @@ header{
 }
 
 footer{
-    background-color: #F0F8FF;;
+    background-color:white;;
     height: 8vh;
-   
 }
 
 h1{
