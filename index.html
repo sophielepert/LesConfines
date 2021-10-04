@@ -5,17 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/styles.css"  />
-    <title>Les CONfinés</title>
+    <title>Les confinés</title>
 </head>
-<body><!-- comment -->
-    <header id = "header">
-       
+<body>
+    <!-- comment -->
+    <header class="header">       
         <nav id="nav">
+
+            <nav class="navbar ">
+                <div class="logo">
+                    <img src="./images/virus-01.png" alt="logo">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link"> Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Temoignages</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Création barres menu déroulant -->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
         </nav>
     </header>
+
+
     <main>
-    <div id="index-Title">
- <h1>Les CONfinés</h1>
+    <div id="index-title">
+ <h1>Les Confinés</h1><br/>
  <h2>
     Découvrez nos astuces pour bien vivre le confinement ! <br/> 
     Seul, à deux, à plusieurs ou dans des contrées insolites !<br/> 
@@ -23,7 +42,7 @@
     </div>
 
     <div >
-        <img id="index-banner"/>
+        <img id="index-banner" src="/images/team-photos/team.jpg" />
 
     </div>
 
@@ -44,11 +63,11 @@
         <h3>Vous êtes un, deux ou plusieurs ? <br /> <br />
             <em>Découvrez nos témoignages ci-dessous !</em>
         </h3>
-    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue at neque vel elementum. Pellentesque in quam vel metus <br/>
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue at neque vel elementum. Pellentesque in quam vel metus <br/>
     auctor volutpat. Aenean eleifend, ligula a fringilla auctor, massa dui elementum nisi, finibus egestas diam turpis vitae arcu. <br/>
     Donec a tristique erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed hendrerit <br/>
     pellentesque elit, id posuere nisi pretium in. Praesent malesuada diam in risus malesuada, sed mollis nibh iaculis. Fusce mollis, <br/>
-    leo nec tristique cursus, erat ligula efficitur lacus, et pharetra est nibh consequat lorem. -->
+    leo nec tristique cursus, erat ligula efficitur lacus, et pharetra est nibh consequat lorem.</p> -->
     </div>
 
     <div id="index-testimony">
@@ -60,7 +79,9 @@
 </section>
 
 
+
     <footer>  </footer>
 </main>
+<script src="script.js"></script>
 </body>
 </html>
