@@ -116,8 +116,14 @@ body{
 }
 
 footer{
-    background-color:white;;
+    background-color:#10162F;
     height: 8vh;
+    color: white;
+}
+
+form{
+    display: flex ;
+    justify-content: space-around;
 }
 
 h1{
@@ -280,4 +286,9 @@ a .index-testimony-button:hover{
 
 figcaption{
     color: white;
+}
+
+.index-input-button{
+    display: flex ;
+    justify-content: space-around;
 }
