@@ -1,18 +1,70 @@
+/*CSS common*/
+@media only screen 
+  and (min-device-width: 320px) /*this is the smaller mobile screen size*/
+  and (max-device-width: 480px) {
+    #indexTemoignage{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/font/Roboto-Regular.ttf");
+}
+
+body{
+    background-color: #f1f4f7;
+    width: 100vw;
+    margin: 0;
+}
+
+header{
+    background-color: #10162F;
+    height: 8vh;
+    color: white;
+}
+
+footer{
+    background-color: #F0F8FF;;
+    height: 8vh;
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 5vw;
+}
+
+h2{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 3vw;
+}
+
+h3{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 2.5vw;
+}
+
 /* Style survival.html*/
-.choices {
+.survival-choices {
     display : flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-.container {
+.survival-container {
         width: 30vw;
+        background-color: whitesmoke;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 16px;
         text-align: center;
       }
       
-.image {
+.survival-image {
         opacity: 1;
         display: block;
         width: 25vw;
@@ -21,21 +73,21 @@
         backface-visibility: hidden;
       }
       
-.middle {
+.survival-middle {
         transition: .5s ease;
         opacity: 0;
         text-align: center;
       }
       
-.container:hover .image {
+.survival-container:hover .image {
         opacity: 0.3;
       }
       
-.container:hover .middle {
+.survival-container:hover .survival-middle {
         opacity: 1;
       }
       
-button {
+#solo, #duo, #tribe {
   background-color: #10162F;
   color: white;
   font-size: 16px;
@@ -46,33 +98,31 @@ button {
   display:none;
   }
 
-h2 {
-  background-color: ;
-}
 
 @media only screen 
   and (min-device-width: 320px)
   and (max-device-width: 480px){
-.choices {
+.survival-choices {
   flex-flow: column wrap;
   justify-content: center;
     }
 
-.container {
+.survival-container {
     width: auto;
+    background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
   }
   
-.image {
+.survival-image {
     opacity: 1;
     display: block;
     width: auto;
     height: 40vh;
 
   }
-  .middle {
+  .survival-middle {
     opacity: 1;
     text-align: center;
   }
@@ -82,4 +132,7 @@ button {
     font-size: 16px;
     padding: 16px 50px;
         }
+#solo-story, #duo-story, #tribe-story {
+    display:none;
+    }
 }
