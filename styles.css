@@ -8,6 +8,7 @@
     }
 }
 
+
 @font-face {
     font-family: "Roboto";
     src: url("/font/Roboto-Regular.ttf");
@@ -35,10 +36,11 @@ h1{
     text-align: center;
     font-family: "Roboto";
     font-size: 5vw;
+    margin: 2vw;
 }
 
 h2{
-    text-align: center;
+    text-align: justify;
     font-family: "Roboto";
     font-size: 3vw;
 }
@@ -54,6 +56,7 @@ h3{
     display : flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .survival-container {
@@ -96,7 +99,16 @@ h3{
 
 #solo-story, #duo-story, #tribe-story {
   display:none;
+  margin-top: 50px;
+  margin-bottom: 0;
   }
+
+.survival-list {
+    list-style-type: circle;
+    margin: 2vw 5vw;
+    margin-bottom: 4vw;
+  }
+
 
 
 @media only screen 
@@ -126,7 +138,14 @@ h3{
     opacity: 1;
     text-align: center;
   }
-button {
+
+  .survival-point {
+    list-style-type: circle;
+    margin: 15px;
+  }
+
+
+#solo, #duo, #tribe {
     background-color: #10162F;
     color: white;
     font-size: 16px;
@@ -148,10 +167,10 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-li {
+.nav-item {
     list-style: none;
 }
-a {
+.nav-link {
     text-decoration: none;
 }
 
