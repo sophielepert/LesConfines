@@ -1,14 +1,3 @@
-/*CSS common*/
-@media only screen 
-  and (min-device-width: 320px) /*this is the smaller mobile screen size*/
-  and (max-device-width: 480px) {
-    #indexTemoignage{
-        flex-flow: column wrap;
-        justify-content: center;
-    }
-}
-
-
 @font-face {
     font-family: "Roboto";
     src: url("/font/Roboto-Regular.ttf");
@@ -108,53 +97,6 @@ h3{
     margin: 2vw 5vw;
     margin-bottom: 4vw;
   }
-
-
-
-@media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 480px){
-.survival-choices {
-  flex-flow: column wrap;
-  justify-content: center;
-    }
-
-.survival-container {
-    width: auto;
-    background-color: whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-  }
-  
-.survival-image {
-    opacity: 1;
-    display: block;
-    width: auto;
-    height: 40vh;
-
-  }
-  .survival-middle {
-    opacity: 1;
-    text-align: center;
-  }
-
-  .survival-point {
-    list-style-type: circle;
-    margin: 15px;
-  }
-
-
-#solo, #duo, #tribe {
-    background-color: #10162F;
-    color: white;
-    font-size: 16px;
-    padding: 16px 50px;
-        }
-#solo-story, #duo-story, #tribe-story {
-    display:none;
-    }
-}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 *{
     margin: 0;
@@ -439,6 +381,10 @@ figcaption{
 h1 {
     margin-top: 100px;
 }
+#indexTemoignage{
+    flex-flow: column wrap;
+    justify-content: center;
+}
  /* .cercles {
     width: auto;
   } */
@@ -453,6 +399,46 @@ h1 {
  .hamburger.active .bar:nth-child(3){
      transform: translateY(-8px) rotate(-405deg);
  }
+ .survival-choices {
+    flex-flow: column wrap;
+    justify-content: center;
+      }
+  
+  .survival-container {
+      width: auto;
+      background-color: whitesmoke;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+    }
+    
+  .survival-image {
+      opacity: 1;
+      display: block;
+      width: auto;
+      height: 40vh;
+  
+    }
+    .survival-middle {
+      opacity: 1;
+      text-align: center;
+    }
+  
+    .survival-point {
+      list-style-type: circle;
+      margin: 15px;
+    }
+  
+  
+  #solo, #duo, #tribe {
+      background-color: #10162F;
+      color: white;
+      font-size: 16px;
+      padding: 16px 50px;
+          }
+  #solo-story, #duo-story, #tribe-story {
+      display:none;
+      }
  }
  
  /* -----------------------------------------------End MEDIA QUERIES (mobile)------------------------------------------------ */
