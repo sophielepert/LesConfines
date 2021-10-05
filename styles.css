@@ -1,7 +1,8 @@
 /* global css for all pages*/
 
     /* Media Queries */
-@media screen and (max-width: 600px){
+    @media screen and (min-device-width: 320px) 
+    and (max-device-width: 480px) {
 
     #index-testimony{
         flex-flow: column wrap;
@@ -291,4 +292,5 @@ figcaption{
 .index-input-button{
     display: flex ;
     justify-content: space-around;
+    margin-top: 5vw;
 }
