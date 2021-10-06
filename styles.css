@@ -16,13 +16,11 @@
     src: url("/font/Lato-Light.ttf");
 }
 
-
 body{
     background-color: white;
     width: 100vw;
     margin: 0;
 }
-
 
 h1{
     text-align: center;
@@ -49,27 +47,6 @@ p{
     font-family: "lato";
     font-size: 1.8vw;
 }
-
-/* footer{
-    background-color: #141b38;
-    height: 5vw ;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-#index-social-media-icons{
-    display: flex;
-    justify-content: space-around;
-    height: 1vw ;
-}
-
-.index-social-media-icons-button{
-    align-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%; 
-} */
-
 
 /* Style survival.html*/
 .survival-choices {
