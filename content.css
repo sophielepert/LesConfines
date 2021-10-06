@@ -90,14 +90,14 @@ img{
 /*Desktop*/
 @media only screen and (min-width: 768px){
     body{
-        background-color: #F0F8FF;
+        background-color: #10162F;
     }
     button.accordion{
         display: none;
     }
     #content-main{
         width:80%;
-        margin: auto;
+        margin: 40px auto;
         background-color: #ffffff;
         padding: 1.2em;
     }
