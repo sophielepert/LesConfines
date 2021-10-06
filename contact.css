@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD:contact.css
 /*contact css*/
 /*mobile first contact*/
 
@@ -248,6 +249,9 @@ body {
 
 
  
+=======
+/* global css for all pages*/
+>>>>>>> 8b2467b422bb418f0fc9352a1d426593f61d8df0:styles.css
 
 
 @font-face {
@@ -255,22 +259,30 @@ body {
     src: url("/font/Roboto-Regular.ttf");
 }
 
-body{
-    background-color: #f1f4f7;
-    width: 100vw;
-    margin: 0;
+@font-face {
+    font-family: "Roboto";
+    src: url("/font/Roboto-Light.ttf");
+    font-style: italic;
 }
 
+<<<<<<< HEAD:contact.css
 header{
     background-color: #10162F;
     height:5%;
     color: white;
 }
+=======
+>>>>>>> 8b2467b422bb418f0fc9352a1d426593f61d8df0:styles.css
 
-footer{
-    background-color: #F0F8FF;;
-    height: 8vh;
+@font-face {
+    font-family: "lato";
+    src: url("/font/Lato-Light.ttf");
+}
 
+body{
+    background-color: white;
+    width: 100vw;
+    margin: 0;
 }
 
 h1{
@@ -281,16 +293,160 @@ h1{
 }
 
 h2{
-    text-align: justify;
-    font-family: "Roboto";
-    font-size: 3vw;
+    text-align: center;
+    font-family: "lato";
+    font-size: 2.8vw;
 }
 
 h3{
     text-align: center;
     font-family: "Roboto";
-    font-size: 2.5vw;
+    font-style: italic;
+    font-size: 2vw;
 }
+
+p{
+    text-align: center;
+    font-family: "lato";
+    font-size: 1.8vw;
+}
+
+/* css style about -------------------------------------------------------*/
+
+.presentation{
+  
+  margin: 20px;
+    font-family: "Roboto";
+    font-size: x-large;
+}
+#Ambre, #Arezki, #Sophie, #Yann, #Bouchra, #Philippe {
+  border-radius: 30%;
+}
+.item4 {
+  display: flex;
+  align-items: center;
+}
+.item5{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item6{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item7 {
+  display: flex;
+  align-items: center;
+}
+.item8 {
+  display: flex;
+  align-items: center;
+}
+.item9{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item10{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item11 {
+  display: flex;
+  align-items: center;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+}
+.item13{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item14{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item15 {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 100px;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    /*grid-auto-rows: 100px;*/
+    grid-template-areas:
+      "a a a a a a a a"
+      "b b b b b b b b"
+      "c c c c c c c c"
+      "d d e e e e e e"
+      "f f f f f f g g"
+      "h h i i i i i i"
+      "j j j j j j k k"
+      "l l m m m m m m"
+      "n n n n n n o o"
+      
+      ;
+  }
+  .item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+  .item5 {
+    grid-area: e;
+  }
+  .item6 {
+    grid-area: f;
+  }
+  .item7 {
+    grid-area: g;
+  }
+  .item8 {
+    grid-area: h;
+  }
+  .item9 {
+    grid-area: i;
+  }
+  .item10 {
+    grid-area: j;
+  }
+  .item11 {
+    grid-area: k;
+  }
+  .item12 {
+    grid-area: l;
+  }
+  .item13 {
+    grid-area: m;
+  }
+  .item14 {
+    grid-area: n;
+  }
+  .item15 {
+    grid-area: o;
+  }
+  
 
 /* Style survival.html*/
 .survival-choices {
@@ -366,6 +522,7 @@ html{
 }
 .nav-link {
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 .header{
@@ -380,7 +537,8 @@ html{
 }
 
 .navbar .logo img{
-    height: 80px;
+    height: 100px;
+    width: 130%;
 }
 /* style défilement hamburger */
 .hamburger{
@@ -397,7 +555,7 @@ html{
 }
 .nav-menu{
     display: flex;
-    justify-content: space-between;
+    align-content: center;
     align-items: center;
 }
 .nav-item{
@@ -413,30 +571,31 @@ html{
 .nav-link:hover{
     color:rgb(166, 170, 172);
 }
-.slider{
-    top: -100px;
-}
-/* --------------------------------------------Sophie's CSS start--------------------------------------------- */
-body{
-    background-color: #F0F8FF;
-    margin: 0;
-}
-footer{
-    background-color: #F0F8FF;;
-    height: 8vh;
-}
-h2, h3{
-    text-align: center;
-    font-family: "Roboto";
+
+.titreH2{
+    margin:50px 0;
 }
 
-h2{
-    font-size: 3vw;
+
+/* -----------------------------------------------Start Index CSS ------------------------------------------------ */
+
+#index-title{
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
-h3{
-    font-size: 2.5vw;
+
+#index-presentation{
+text-align: center;
+margin-top: 5vw;
+margin-bottom: 5vw;
 }
-/* end of common css*/ 
+
+#index-banner{
+    display: flex;
+    justify-content: space-around ;
+    width: 100%;
+    }
 
 .img-accueil img{
     width: 100%;
@@ -444,15 +603,9 @@ h3{
 }
 
 #index-presentation{
-text-align: center;
-height: 100%;
+    text-align: center;
+    height: 100%;
 }
-
-/* #index-banner{
-    width: 100%;
-    height: 30vh;
-    background-color: #10162F;
-} */
 
 #index-card{
     margin-top: 5vw;
@@ -461,6 +614,11 @@ height: 100%;
 #googleMaps{
     width: 70%;
     margin: 0;
+    margin-top: 5vw;
+}
+
+#index-presentation-intro{
+    margin-bottom: 5vw;
 }
 
 #index-testimony{
@@ -475,8 +633,7 @@ height: 100%;
 
 .index-testimony-button{
     background-color: white;
-    height: 80%;
-    width: 12vw;
+    width: 9vw;
     border-radius: 50%;
     align-content: center;
 }
@@ -505,7 +662,8 @@ figcaption{
     height: 100%;
   }
   .cont-slides img {
-    width: 100%;
+    width: 70%;
+    margin: auto 15%;
     height: 100%;
     position: absolute;
     opacity: 0;
@@ -513,7 +671,7 @@ figcaption{
   }
   .commandes {
     top: 0px;
-    /* width: 98%; */
+    width: 98%;
     height: 100%;
     /* position: absolute; */
   }
@@ -535,12 +693,12 @@ figcaption{
   .commandes button:nth-child(1){
     top: 50%;
     transform: translateY(-50%);
-    left: 5px;
+    left: 15%;
   }
   .commandes button:nth-child(2){
     top: 50%;
     transform: translateY(-50%);
-    right: 5px;
+    right: 15%;
   }
   .commandes button:nth-child(1) img {
     left: -5px;
@@ -577,14 +735,11 @@ figcaption{
   }
 /* -----------------------------------End Slide CSS--------------------------------- */
 
-/* -----------------------------------------Sophie's CSS end--------------------------------------------------- */
-
-
 /* -----------------------------------------------Start MEDIA QUERIES (mobile)------------------------------------------------ */
 @media screen and (min-device-width: 320px) 
    and (max-device-width: 480px) {
 .header{
-        width: 100vw;
+        width: 100%;
         z-index: 1;
         height: auto;
         position: fixed;
@@ -630,13 +785,12 @@ figcaption{
     flex-flow: column wrap;
     justify-content: center;
 }
+
 h1 {
     margin-top: 100px;
 }
-#indexTemoignage{
-    flex-flow: column wrap;
-    justify-content: center;
-}
+
+
  /* .cercles {
     width: auto;
   } */
@@ -651,6 +805,139 @@ h1 {
  .hamburger.active .bar:nth-child(3){
      transform: translateY(-8px) rotate(-405deg);
  }
+ .wrapper{
+   margin-top: 100px;
+ }
+ .presentation{
+  
+  margin: 20px;
+    font-family: "Roboto";
+    font-size: x-large;
+}
+.item4 {
+  display: flex;
+  align-items: center;
+}
+.item5{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item6{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item7 {
+  display: flex;
+  align-items: center;
+}
+.item8 {
+  display: flex;
+  align-items: center;
+}
+.item9{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item10{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item11 {
+  display: flex;
+  align-items: center;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+}
+.item13{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item14{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item15 {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 100px;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    /*grid-auto-rows: 100px;*/
+    grid-template-areas:
+      "b b b b b b b b"
+      "c c c c c c c c"
+      "d d e e e e e e"
+      "f f f f f f g g"
+      "h h i i i i i i"
+      "j j j j j j k k"
+      "l l m m m m m m"
+      "n n n n n n o o"
+      
+      ;
+  }
+
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+  .item5 {
+    grid-area: e;
+  }
+  .item6 {
+    grid-area: f;
+  }
+  .item7 {
+    grid-area: g;
+  }
+  .item8 {
+    grid-area: h;
+  }
+  .item9 {
+    grid-area: i;
+  }
+  .item10 {
+    grid-area: j;
+  }
+  .item11 {
+    grid-area: k;
+  }
+  .item12 {
+    grid-area: l;
+  }
+  .item13 {
+    grid-area: m;
+  }
+  .item14 {
+    grid-area: n;
+  }
+  .item15 {
+    grid-area: o;
+  }
+  .item7, .item11, .item15{
+    margin-right: 5vw;
+  }
  .survival-choices {
     flex-flow: column wrap;
     justify-content: center;
@@ -692,7 +979,7 @@ h1 {
       display:none;
       }
  }
- 
+
  /* -----------------------------------------------End MEDIA QUERIES (mobile)------------------------------------------------ */
 
  /* -----------------------------------------------Start MEDIA QUERIES (Tablet)------------------------------------------------ */
@@ -700,7 +987,7 @@ h1 {
  @media screen and (min-device-width: 481px) 
  and (max-device-width: 768px) {
 .header{
-    width: 100vw;
+    width: 100%;
     z-index: 1;
     height: auto;
     position: fixed;
@@ -745,6 +1032,191 @@ h1 {
 .cercles {
     width: 90vw;
 }
- }
+
+h1 {
+  margin-top: 100px;
+}
+
+.presentation{
+  
+  margin: 20px;
+    font-family: "Roboto";
+    font-size: x-large;
+}
+.item4 {
+  display: flex;
+  align-items: center;
+}
+.item5{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item6{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item7 {
+  display: flex;
+  align-items: center;
+}
+.item8 {
+  display: flex;
+  align-items: center;
+}
+.item9{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item10{
+  display: flex;
+  text-align: end;
+    align-items: center;
+  margin: 10px;
+}
+.item11 {
+  display: flex;
+  align-items: center;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+}
+.item13{
+  display: flex;
+    align-items: center;
+  margin: 10px;
+}
+.item14{
+  display: flex;
+  text-align: end;
+  align-items: center;
+  margin: 10px;
+}
+.item15 {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 100px;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    /*grid-auto-rows: 100px;*/
+    grid-template-areas:
+      "b b b b b b b b"
+      "c c c c c c c c"
+      "d d e e e e e e"
+      "f f f f f f g g"
+      "h h i i i i i i"
+      "j j j j j j k k"
+      "l l m m m m m m"
+      "n n n n n n o o"
+      ;
+  }
+
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+  .item5 {
+    grid-area: e;
+  }
+  .item6 {
+    grid-area: f;
+  }
+  .item7 {
+    grid-area: g;
+  }
+  .item8 {
+    grid-area: h;
+  }
+  .item9 {
+    grid-area: i;
+  }
+  .item10 {
+    grid-area: j;
+  }
+  .item11 {
+    grid-area: k;
+  }
+  .item12 {
+    grid-area: l;
+  }
+  .item13 {
+    grid-area: m;
+  }
+  .item14 {
+    grid-area: n;
+  }
+  .item15 {
+    grid-area: o;
+  }
+  .item7, .item11, .item15{
+    margin-right: 5vw;
+  }
+
+#index-testimony{
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.survival-choices {
+    flex-flow: column wrap;
+    justify-content: center;
+      }
+  
+  .survival-container {
+      width: auto;
+      background-color: whitesmoke;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+    }
+    
+  .survival-image {
+      opacity: 1;
+      display: block;
+      width: auto;
+      height: 40vh;
+  
+    }
+    .survival-middle {
+      opacity: 1;
+      text-align: center;
+    }
+  
+    .survival-point {
+      list-style-type: circle;
+      margin: 15px;
+    }
+  
+  
+  #solo, #duo, #tribe {
+      background-color: #10162F;
+      color: white;
+      font-size: 16px;
+      padding: 16px 50px;
+          }
+  #solo-story, #duo-story, #tribe-story {
+      display:none;
+      }
+
+ .titreH2 {
+    margin: 100px 0 20px;
+} 
+}
  /* -----------------------------------------------End MEDIA QUERIES (Tablet)------------------------------------------------ */
+
 
