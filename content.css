@@ -5,7 +5,6 @@ bleu clair : #F0F8FF
 gris foncé : #25303B 
 Bleu marine : #10162F
 bleu moyen : #64B5F6
-
 font : Roboto
 */
 
@@ -90,7 +89,7 @@ img{
 /*Desktop*/
 @media only screen and (min-width: 768px){
     body{
-        background-color: #10162F;
+        background-color: #FFFFFF;
     }
     button.accordion{
         display: none;
