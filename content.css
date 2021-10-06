@@ -8,121 +8,147 @@ bleu moyen : #64B5F6
 font : Roboto
 */
 
-/*mobile*/
+/*mobile first content*/
 
-body{
+body {
+  width: 100%;
+  margin: 0;
+}
+header {
+  background-color: #10162f;
+  height: 8vh;
+  color: white;
+}
+
+footer {
+  background-color: #f0f8ff;
+  height: 8vh;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+}
+h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 10vw;
+}
+
+button.accordion {
+    background-color: #64B5F6;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
     width: 100%;
-    margin: 0;
-}
-header{
-    background-color: #10162F;
-    height: 8vh;
-    color: white;
-}
-
-footer{
-    background-color: #F0F8FF;
-    height: 8vh;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.5em;
 }
 
-img{
-    width: 100%;
+button.accordion.active,
+button.accordion:hover {
+  background-color: #1972D2;
 }
 
-/* @media only screen and (max-width: 768px){ */
-    body{
-        background-color: #FFFFFF;
-    }
-    h1{
-        text-align: center;
-        font-family: "Roboto";
-        font-size: 10vw;
-    }
-    button.accordion {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        text-align: left;
-        border: none;
-        outline: none;
-        transition: 0.4s;
-    }
+div.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+}
 
-    button.accordion.active, button.accordion:hover {
-        background-color: #ddd;
-    }
-    
-    div.panel {
-        padding: 0 18px;
-        background-color: white;
-        display: none;
-    }
-    
-    div.panel.show {
-        display: block !important;
-    }
-    button.accordion:after {
-        content: 'ᐳ';
-        font-size: 15px;
-        color: #25303B ;
-        float: right;
-        margin-left: 5px;
-    }
-    
-    button.accordion.active:after {
-        content: "ᐯ"; 
-    }
+div.panel.show {
+  display: block !important;
+}
+button.accordion:after {
+  content: "ᐳ";
+  font-size: 15px;
+  color: #ffffff;
+  float: right;
+  margin-left: 5px;
+}
 
-    h2{
-        text-align: center;
-        font-family: "Roboto";
-        font-size: 8vw;
-    }
-    .aLaUne{
-        padding:1.2em;
-    }
-/* } */
+button.accordion.active:after {
+  content: "ᐯ";
+}
 
+p{
+    font-size: 7vw;
+    padding-bottom: 15px;
+}
+.panel,ul{
+    padding-left: 20px;
+    font-size: 7vw;
+}
+.content-liste-title{
+    font-weight: 700;
+}
+.panel,li{
+    list-style-position : outside;
+    padding-bottom: 15px;
+}
+.centered{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 8vw;
+    padding: 15px 0px 15px 0px;
+}
+h2 {
+ 
+}
+.aLaUne {
+  padding: 1.2em;
+}
 
 /*Desktop*/
-@media only screen and (min-width: 768px){
-    body{
-        background-color: #FFFFFF;
-    }
-    button.accordion{
-        display: none;
-    }
-    #content-main{
-        width:80%;
-        margin: 40px auto;
-        background-color: #ffffff;
-        padding: 1.2em;
-    }
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #ddd;
+  }
+  /*
+  button.accordion {
+    display: none;
+  }*/
+  #content-main {
+    width: 80%;
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: 1.2em;
+    max-width:1200px;
+  }
+/*
+  div.panel {
+    display: block;
+  }
+*/
+  p {
+    font-size: 1.2vw;
+  }
+  li {
+    font-size: 1.2vw;
+  }
+  ul {
+    font-size: 1.2vw;
+  }
 
-    div.panel {
-        display: block;
-    }
-
-    p{
-        font-size: 1.5vw;
-    }
-    li{
-        font-size: 1.5vw;
-    }
-    ul{
-        font-size: 1.5vw;
-    }
-
-    h1{
-        text-align: center;
-        font-family: "Roboto";
-        font-size: 5vw;
-    }
-    h2{
-        text-align: center;
-        font-family: "Roboto";
-        font-size: 3vw;
-    }
+  h1 {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 5vw;
+  }
+  .centered {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 3vw;
+  }
+  .img-content{
+      overflow: hidden;
+      height: 25vw;
+      margin-bottom:20px;
+  }
 }
