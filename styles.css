@@ -13,6 +13,7 @@
     font-style: italic;
 }
 
+
 @font-face {
     font-family: "lato";
     src: url("/font/Lato-Light.ttf");
@@ -261,6 +262,7 @@ html{
 }
 .nav-link {
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 .header{
@@ -275,7 +277,8 @@ html{
 }
 
 .navbar .logo img{
-    height: 80px;
+    height: 100px;
+    width: 130%;
 }
 /* style défilement hamburger */
 .hamburger{
@@ -308,18 +311,19 @@ html{
 .nav-link:hover{
     color:rgb(166, 170, 172);
 }
-.slider{
-    top: -100px;
+
+.titreH2{
+    margin:50px 0;
 }
+
 
 /* -----------------------------------------------Start Index CSS ------------------------------------------------ */
 
 #index-title{
-
     text-align: center;
     margin-top: 5vw;
     margin-bottom: 5vw;
-    }
+}
 
 #index-presentation{
 text-align: center;
@@ -398,7 +402,8 @@ figcaption{
     height: 100%;
   }
   .cont-slides img {
-    width: 100%;
+    width: 70%;
+    margin: auto 15%;
     height: 100%;
     position: absolute;
     opacity: 0;
@@ -406,7 +411,7 @@ figcaption{
   }
   .commandes {
     top: 0px;
-    /* width: 98%; */
+    width: 98%;
     height: 100%;
     /* position: absolute; */
   }
@@ -428,12 +433,12 @@ figcaption{
   .commandes button:nth-child(1){
     top: 50%;
     transform: translateY(-50%);
-    left: 5px;
+    left: 15%;
   }
   .commandes button:nth-child(2){
     top: 50%;
     transform: translateY(-50%);
-    right: 5px;
+    right: 15%;
   }
   .commandes button:nth-child(1) img {
     left: -5px;
@@ -714,7 +719,7 @@ h1 {
       display:none;
       }
  }
- 
+
  /* -----------------------------------------------End MEDIA QUERIES (mobile)------------------------------------------------ */
 
  /* -----------------------------------------------Start MEDIA QUERIES (Tablet)------------------------------------------------ */
@@ -853,7 +858,6 @@ h1 {
       "j j j j j j k k"
       "l l m m m m m m"
       "n n n n n n o o"
-      
       ;
   }
 
@@ -948,7 +952,11 @@ h1 {
   #solo-story, #duo-story, #tribe-story {
       display:none;
       }
- }
+
+ .titreH2 {
+    margin: 100px 0 20px;
+} 
+}
  /* -----------------------------------------------End MEDIA QUERIES (Tablet)------------------------------------------------ */
 
 
