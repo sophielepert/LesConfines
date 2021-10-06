@@ -114,6 +114,7 @@ html{
 }
 .nav-link {
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 .header{
@@ -128,7 +129,8 @@ html{
 }
 
 .navbar .logo img{
-    height: 80px;
+    height: 100px;
+    width: 130%;
 }
 /* style défilement hamburger */
 .hamburger{
@@ -162,11 +164,9 @@ html{
     color:rgb(166, 170, 172);
 }
 
-
 .titreH2{
     margin:50px 0;
 }
-
 
 /* --------------------------------------------Sophie's CSS start--------------------------------------------- */
 body{
@@ -445,7 +445,7 @@ h1 {
       display:none;
       }
  }
- 
+
  /* -----------------------------------------------End MEDIA QUERIES (mobile)------------------------------------------------ */
 
  /* -----------------------------------------------Start MEDIA QUERIES (Tablet)------------------------------------------------ */
@@ -538,6 +538,10 @@ h1 {
   #solo-story, #duo-story, #tribe-story {
       display:none;
       }
- }
+
+ .titreH2 {
+    margin: 100px 0 20px;
+} 
+}
  /* -----------------------------------------------End MEDIA QUERIES (Tablet)------------------------------------------------ */
 
