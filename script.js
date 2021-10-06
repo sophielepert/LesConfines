@@ -16,6 +16,7 @@ function menuFerme(){
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
 // -------------------------------End JS Header --------------------------
 
 // -------------------------------START JS SLIDE --------------------------
