@@ -24,7 +24,6 @@ header{
 footer{
     background-color: #F0F8FF;
     height: 8vh;
-   
 }
 
 img{
@@ -103,6 +102,10 @@ img{
         padding: 1.2em;
     }
 
+    div.panel {
+        display: block;
+    }
+
     p{
         font-size: 1.5vw;
     }
@@ -112,7 +115,6 @@ img{
     ul{
         font-size: 1.5vw;
     }
-
 
     h1{
         text-align: center;
