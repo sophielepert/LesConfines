@@ -292,5 +292,6 @@ figcaption{
 .index-input-button{
     display: flex ;
     justify-content: space-around;
+    align-content: center;
     margin-top: 5vw;
 }
