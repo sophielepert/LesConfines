@@ -28,21 +28,12 @@ body{
     font-size: 2.1rem;
 }
 
-footer{
-    background-color:#10162F;
-    height: 8vh;
-    color: white;
-}
-
-form{
-    display: flex ;
-    justify-content: space-around;
-}
 
 h1{
     text-align: center;
     font-family: "Roboto";
     font-size: 5vw;
+    margin: 2vw;
 }
 
 h2{
@@ -63,11 +54,64 @@ p{
     font-family: "lato";
     font-size: 1.8vw;
 }
-/* end of common css*/ 
 
+/* Style survival.html*/
+.survival-choices {
+    display : flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
 
+.survival-container {
+        width: 30vw;
+        background-color: whitesmoke;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+      }
+      
+.survival-image {
+        opacity: 1;
+        display: block;
+        width: 25vw;
+        height: 40vh;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+.survival-middle {
+        transition: .5s ease;
+        opacity: 0;
+        text-align: center;
+      }
+      
+.survival-container:hover .image {
+        opacity: 0.3;
+      }
+      
+.survival-container:hover .survival-middle {
+        opacity: 1;
+      }
+      
+#solo, #duo, #tribe {
+  background-color: #10162F;
+  color: white;
+  font-size: 16px;
+  padding: 16px 50px;
+      }
 
+#solo-story, #duo-story, #tribe-story {
+  display:none;
+  margin-top: 50px;
+  margin-bottom: 0;
+  }
 
+.survival-list {
+    list-style-type: circle;
+    margin: 2vw 5vw;
+    margin-bottom: 4vw;
+  }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 *{
     margin: 0;
@@ -75,29 +119,32 @@ p{
     box-sizing: border-box;
 }
 
+
 html{
     font-family: 'Roboto', sans-serif;
 }
 
-li {list-style: none;}
-a {text-decoration: none;}
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+}
 
 .header{
-    background-color: #10162F;
+    background-color: #141b38;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
+    margin: 0;
 }
+
 .navbar .logo img{
     height: 80px;
-    width: 120px;
-    padding-right: 10px;
 }
-
-
 /* style défilement hamburger */
 .hamburger{
     display: none;
@@ -111,37 +158,36 @@ a {text-decoration: none;}
     transition: all 0.4s ease-out;
     background-color: rgb(167, 211, 247);
 }
-
 .nav-menu{
     display: flex;
     align-content: center;
     align-items: center;
-
-
 }
 .nav-item{
-    margin-left: 5rem;
+    margin-left: 3rem;
+}
+.nav-item:last-child{
+    margin-right: 10px;
 }
 .nav-link{
-    font-size: 1.2rem;
-    /* font-weight: 300; */
+    /* font-size: 1.1em; */
     color: #fff;
-    text-transform: uppercase;
-}
-.nav-logo{
-    color: #fff;
-    font-size: 2.1rem;
 }
 .nav-link:hover{
     color:rgb(166, 170, 172);
 }
+.slider{
+    top: -100px;
+}
+/* --------------------------------------------Sophie's CSS start--------------------------------------------- */
+
 
 /* -----------------------------------------------Start Index CSS ------------------------------------------------ */
 
 #index-title{
     text-align: center;
     margin-top: 5vw;
-    margin-bottom: 5vw;s
+    margin-bottom: 5vw;
     }
 
 #index-presentation{
@@ -156,6 +202,17 @@ margin-bottom: 5vw;
     width: 100%;
     }
 
+/* ---------------------------------- CSS index.html -------------------------------- */
+
+.img-accueil img{
+    width: 100%;
+    height: 30vh;
+}
+
+#index-presentation{
+text-align: center;
+height: 100%;
+}
 
 #index-card{
     margin-top: 5vw;
@@ -183,9 +240,9 @@ margin-bottom: 5vw;
 
 .index-testimony-button{
     background-color: white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50% 50% 50% 50%;
+    height: 80%;
+    width: 9vw;
+    border-radius: 50%;
     align-content: center;
 }
 
@@ -196,7 +253,96 @@ a .index-testimony-button:hover{
 figcaption{
     color: white;
 }
-/* ----------------------------------------------- End Index CSS ------------------------------------------------ */
+/* ----------------------------------Start Slide CSS-------------------------------- */
+*, ::before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.slider {
+    width: 100%;
+    height: 600px;
+    margin: 100px auto 0;
+    position: relative;
+  }
+  .cont-slides {
+    width: 100%;
+    height: 100%;
+  }
+  .cont-slides img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  .commandes {
+    top: 0px;
+    /* width: 98%; */
+    height: 100%;
+    /* position: absolute; */
+  }
+  /* ----next & previous---- */
+  .commandes button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .commandes img {
+    width: 30px;
+    position: relative;
+  }
+  .commandes button:nth-child(1){
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+  }
+  .commandes button:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+  }
+  .commandes button:nth-child(1) img {
+    left: -5px;
+  }
+  .commandes button:nth-child(2) img {
+    right: -5px;
+  }
+  .cercles {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cercle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #333;
+  }
+  
+  .active-cercle {
+    background: #141b38;
+  }
+  .slide-active {
+    opacity: 1!important;
+  }
+/* -----------------------------------End Slide CSS--------------------------------- */
+
+/* -----------------------------------------Sophie's CSS end--------------------------------------------------- */
 
 
 /* -----------------------------------------------Start MEDIA QUERIES (mobile)------------------------------------------------ */
@@ -249,13 +395,12 @@ figcaption{
     flex-flow: column wrap;
     justify-content: center;
 }
+
 h1 {
     margin-top: 100px;
 }
-#indexTemoignage{
-    flex-flow: column wrap;
-    justify-content: center;
-}
+
+
  /* .cercles {
     width: auto;
   } */
@@ -364,5 +509,57 @@ h1 {
 .cercles {
     width: 90vw;
 }
+
+#index-testimony{
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+
+.survival-choices {
+    flex-flow: column wrap;
+    justify-content: center;
+      }
+  
+  .survival-container {
+      width: auto;
+      background-color: whitesmoke;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+    }
+    
+  .survival-image {
+      opacity: 1;
+      display: block;
+      width: auto;
+      height: 40vh;
+  
+    }
+    .survival-middle {
+      opacity: 1;
+      text-align: center;
+    }
+  
+    .survival-point {
+      list-style-type: circle;
+      margin: 15px;
+    }
+  
+  
+  #solo, #duo, #tribe {
+      background-color: #10162F;
+      color: white;
+      font-size: 16px;
+      padding: 16px 50px;
+          }
+  #solo-story, #duo-story, #tribe-story {
+      display:none;
+      }
  }
  /* -----------------------------------------------End MEDIA QUERIES (Tablet)------------------------------------------------ */
+
