@@ -57,7 +57,7 @@ header {
 
 .contactForm-txt {
         width: 100%;
-        height: 15px;
+        height: 35px;
         color: black;
         border: 1px solid #bcbcbc; 
         border-radius: 30px;
@@ -71,7 +71,7 @@ header {
 .contactForm-textarea {
         width: 100%;
         height: 130px;
-        color:white;
+        color:rgba(0, 0, 0, 0.9);
         border: 1px solid #bcbcbc; 
         border-radius: 10px;
         outline: none;
@@ -114,6 +114,10 @@ header {
         color:white;
         
  }
+
+ .placeholder{
+     font-color:red;
+ }
 @font-face {
     font-family: "Roboto";
     src: url("/font/Roboto-Regular.ttf");
@@ -127,7 +131,7 @@ body{
 
 header{
     background-color: #10162F;
-    height: 8vh;
+    height:5%;
     color: white;
 }
 
