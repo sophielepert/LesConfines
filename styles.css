@@ -5,6 +5,10 @@
     font-size: x-large;
 }
 
+.item4 {
+  display: flex;
+  align-items: center;
+}
 .item5{
   display: flex;
     align-items: center;
@@ -15,6 +19,14 @@
   text-align: end;
     align-items: center;
   margin: 10px;
+}
+.item7 {
+  display: flex;
+  align-items: center;
+}
+.item8 {
+  display: flex;
+  align-items: center;
 }
 .item9{
   display: flex;
@@ -27,6 +39,14 @@
     align-items: center;
   margin: 10px;
 }
+.item11 {
+  display: flex;
+  align-items: center;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+}
 .item13{
   display: flex;
     align-items: center;
@@ -37,6 +57,10 @@
   text-align: end;
     align-items: center;
   margin: 10px;
+}
+.item15 {
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {
@@ -517,7 +541,10 @@ h1 {
     font-family: "Roboto";
     font-size: x-large;
 }
-
+.item4 {
+  display: flex;
+  align-items: center;
+}
 .item5{
   display: flex;
     align-items: center;
@@ -528,6 +555,14 @@ h1 {
   text-align: end;
     align-items: center;
   margin: 10px;
+}
+.item7 {
+  display: flex;
+  align-items: center;
+}
+.item8 {
+  display: flex;
+  align-items: center;
 }
 .item9{
   display: flex;
@@ -540,6 +575,14 @@ h1 {
     align-items: center;
   margin: 10px;
 }
+.item11 {
+  display: flex;
+  align-items: center;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+}
 .item13{
   display: flex;
     align-items: center;
@@ -550,6 +593,10 @@ h1 {
   text-align: end;
     align-items: center;
   margin: 10px;
+}
+.item15 {
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {
@@ -722,7 +769,10 @@ h1 {
     font-family: "Roboto";
     font-size: x-large;
 }
-
+.item4 {
+  display: flex;
+  align-items: center;
+}
 .item5{
   display: flex;
     align-items: center;
@@ -733,6 +783,14 @@ h1 {
   text-align: end;
     align-items: center;
   margin: 10px;
+}
+.item7 {
+  display: flex;
+  align-items: center;
+}
+.item8 {
+  display: flex;
+  align-items: center;
 }
 .item9{
   display: flex;
@@ -745,6 +803,14 @@ h1 {
     align-items: center;
   margin: 10px;
 }
+.item11 {
+  display: flex;
+  align-items: center;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+}
 .item13{
   display: flex;
     align-items: center;
@@ -755,6 +821,10 @@ h1 {
   text-align: end;
   align-items: center;
   margin: 10px;
+}
+.item15 {
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {

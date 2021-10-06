@@ -23,12 +23,13 @@ photoMaskedPhilippe.addEventListener('mouseover',function(){
 })
 
 
-const photoMaskedSophie = document.getElementById("Philippe");
+const photoMaskedSophie = document.getElementById("Sophie");
 photoMaskedSophie.addEventListener('mouseover',function(){
   photoMaskedSophie.src=('./images/sophie2.jpg');
   photoMaskedSophie.alt="unmasked Sophie"
 })
 
+const photoMaskedSophie = document.getElementById("Yann");
 photophotoMaskedYann.addEventListener('mouseover',function(){
   photoMaskedYann.src=('./images/yann2.jpg');
   photoMaskedYann.alt="unmasked Yann"
