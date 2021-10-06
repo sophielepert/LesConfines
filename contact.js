@@ -4,9 +4,20 @@ const inputs = document.getElementsByClassName('contactForm-txt')
 for (let i = 0; i < inputs.length; i++) {
     console.log(inputs[i]);
     inputs[i].addEventListener('change', (e) => {
+        console.log(inputs[i].style.color);
+       
         message[e.target.name] = e.target.value
         console.log(message);
-    });   
+    });
+    inputs[i].addEventListener('focus',(e) => {
+        if (inputs[i].style.color=== "red"){
+            inputs[i].style.color = "black"   
+        }
+        inputs[i].setAttribute("placeholder", "");
+
+
+    })
+
 }
 
 const textarea = document.getElementsByClassName('contactForm-textarea')
@@ -28,8 +39,9 @@ document.getElementById("btn-submit").addEventListener("click", function(e) {
     for (let i = 0; i < inputs.length; i++) {
         if (!inputs[i].value ) {
             inputs[i].setAttribute("placeholder", "veuillez renseigner tous les champs");
-            input[i].setAttribute("placeholder", style.color('red'));
+            inputs[i].style.color = "red"
         }
+
     }
     const form = document.getElementById('submit')
     console.log(form);

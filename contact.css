@@ -2,7 +2,7 @@
 /*contact css*/
 
 
-header {
+.header {
     background-color: #10162F;
     height: 80px;
     color: white;
@@ -118,6 +118,8 @@ header {
  placeholder{
      font-color:red;
  }
+
+
 @font-face {
     font-family: "Roboto";
     src: url("/font/Roboto-Regular.ttf");
