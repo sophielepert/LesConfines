@@ -493,6 +493,46 @@ h1 {
 .cercles {
     width: 90vw;
 }
+.survival-choices {
+    flex-flow: column wrap;
+    justify-content: center;
+      }
+  
+  .survival-container {
+      width: auto;
+      background-color: whitesmoke;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+    }
+    
+  .survival-image {
+      opacity: 1;
+      display: block;
+      width: auto;
+      height: 40vh;
+  
+    }
+    .survival-middle {
+      opacity: 1;
+      text-align: center;
+    }
+  
+    .survival-point {
+      list-style-type: circle;
+      margin: 15px;
+    }
+  
+  
+  #solo, #duo, #tribe {
+      background-color: #10162F;
+      color: white;
+      font-size: 16px;
+      padding: 16px 50px;
+          }
+  #solo-story, #duo-story, #tribe-story {
+      display:none;
+      }
  }
  /* -----------------------------------------------End MEDIA QUERIES (Tablet)------------------------------------------------ */
 
