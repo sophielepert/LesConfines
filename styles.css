@@ -4,7 +4,10 @@
     font-family: "Roboto";
     font-size: x-large;
 }
-
+#Ambre, #Arezki, #Sophie, #Yann, #Bouchra, #Philippe {
+  border-radius: 30%;
+}
+ 
 .item4 {
   display: flex;
   align-items: center;
@@ -299,7 +302,7 @@ html{
 }
 /* --------------------------------------------Sophie's CSS start--------------------------------------------- */
 body{
-    background-color: #F0F8FF;
+    background-color: white;
     margin: 0;
 }
 footer{
