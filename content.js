@@ -18,8 +18,6 @@ function menuFerme(){
 
 // -------------------------------End JS Header --------------------------
 
-
-
 let acc = document.getElementsByClassName("accordion");
 let i;
 

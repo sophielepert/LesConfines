@@ -525,8 +525,8 @@ figcaption{
   }
   .commandes {
     top: 0px;
-    width: 98%;
-    height: 100%;
+    /*width: 98%;*/
+    height: 20%;
     /* position: absolute; */
   }
   /* ----next & previous---- */
@@ -598,6 +598,10 @@ figcaption{
         height: auto;
         position: fixed;
         top: 0;
+}
+
+.slider {
+  display: none;
 }
 .nav-menu{
     position: fixed;
