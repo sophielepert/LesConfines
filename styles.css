@@ -250,7 +250,6 @@ p{
       "j j j j j j k k"
       "l l m m m m m m"
       "n n n n n n o o"
-      
       ;
   }
   .item1 {
@@ -641,11 +640,6 @@ figcaption{
     justify-content: center;
 }
 
-/* h1 {
-    margin-top: 100px;
-} */
-
-
 h1{
   text-align: center;
   font-family: "Roboto";
@@ -671,7 +665,7 @@ p{
   text-align: center;
   font-family: "lato";
   font-size: 2.5vw;
-
+}
 
 
  /* .cercles {
@@ -688,9 +682,12 @@ p{
  .hamburger.active .bar:nth-child(3){
      transform: translateY(-8px) rotate(-405deg);
  }
+
+
  .wrapper{
    margin-top: 100px;
- }
+ } 
+
  .presentation{
   
   margin: 20px;
@@ -823,6 +820,8 @@ p{
   .item7, .item11, .item15{
     margin-right: 5vw;
   }
+
+
  .survival-choices {
     flex-flow: column wrap;
     justify-content: center;
@@ -841,8 +840,8 @@ p{
       display: block;
       width: auto;
       height: 40vh;
-  
     }
+
     .survival-middle {
       opacity: 1;
       text-align: center;
@@ -863,7 +862,7 @@ p{
   #solo-story, #duo-story, #tribe-story {
       display:none;
       }
- }
+    }
 
  /* -----------------------------------------------End MEDIA QUERIES (mobile)------------------------------------------------ */
 
@@ -1102,6 +1101,7 @@ h1 {
     margin: 100px 0 20px;
 }
 
+
 /* @media only screen and (min-width: 768px){*/
 
 
@@ -1211,7 +1211,7 @@ h1 {
          color:white;
          
   }
- }
+}
  /* -----------------------------------------------End MEDIA QUERIES (Tablet)------------------------------------------------ */
 
 

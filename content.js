@@ -1,13 +1,3 @@
-let acc = document.getElementsByClassName("accordion");
-let i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-    }
-}
-
 // -------------------------------START JS Header --------------------------
 
 const hamburger = document.querySelector(".hamburger");
@@ -27,3 +17,16 @@ function menuFerme(){
 }
 
 // -------------------------------End JS Header --------------------------
+
+
+
+let acc = document.getElementsByClassName("accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}
+
