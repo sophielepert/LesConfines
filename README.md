@@ -1,5 +1,5 @@
 # projet1-092021 / Les Confinés
-*First project in HTML 5 / CSS 3*
+*First project in HTML 5 / CSS 3 / JavaScript*
 
 
 Members of the team : [Ambre Thévenin](https://github.com/Ambre-Thevenin), [Arezki Ait Darna](https://github.com/Arezki-kaki), [Bouchra Mazouzi](https://github.com/Boushra1), Sophie Lepert, [Philippe Moty](https://github.com/110111-1) et [Yann Dufaure](https://github.com/yann9278)
