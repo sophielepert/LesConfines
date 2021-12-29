@@ -4,7 +4,7 @@
 
 Members of the team : [Ambre Thévenin](https://github.com/Ambre-Thevenin), [Arezki Ait Darna](https://github.com/Arezki-kaki), [Bouchra Mazouzi](https://github.com/Boushra1), Sophie Lepert, [Philippe Moty](https://github.com/110111-1) et [Yann Dufaure](https://github.com/yann9278)
 
-The project starts o the 27th of september. 
+The project starts on the 27th of september. 
 Due date : friday 8th of october
 
 **Project : "how to survive a pandemic period".**
